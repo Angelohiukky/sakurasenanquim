@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/home/style.css">
+    <link rel="stylesheet" href="/Site de Vendas/home/style.css">
     <title>Sakuras e Nanquim</title>
 </head>
 <body>
     <header>
         <nav class="navegacao">
-            <img class="img-logo" src="/home/img/logo s&n pronta.png" alt="Sakuras e Nanquim">
+            <img class="img-logo" src="/Site de Vendas/home/img/logo s&n pronta.png" alt="Sakuras e Nanquim">
             <a href="#" class="logo">Sakuras &  <span>Nanquim</span></a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#">Home</a></li>  
-                <li class="nav-item"><a href="/home/blog/blog.html">Blog</a></li>  
-                <li class="nav-item"><a href="/home/lojinha/loja.html">Lojinha</a></li>  
-                <li class="nav-item"><a href="/home/sobre/sobre.html">Sobre</a></li>  
+                <li class="nav-item"><a href="/Site de Vendas/home/blog/blog.html">Blog</a></li>  
+                <li class="nav-item"><a href="/Site de Vendas/home/lojinha/loja.html">Lojinha</a></li>  
+                <li class="nav-item"><a href="/Site de Vendas/home/sobre/sobre.html">Sobre</a></li>  
                 <li class="nav-item"></li> <a href=https://www.instagram.com/sakurasenanquim/><i class='bx bxl-instagram'></i></a></li>
                 <li class="nav-item"></li><a href='https://api.whatsapp.com/send/?phone=5521977341094&text&type=phone_number&app_absent=0'><i class='bx bxl-whatsapp' ></i></a></li>
             </ul>
@@ -32,13 +32,19 @@
                 <h4 class="text-h4">Bem Vindos ao Sakuras e Nanquim</h4>
                 <h1 class="text-h1">Belos como pétalas de Rosas, Marcantes como tinta de Nanquim</h1>
                 <div class="banner">
-                    <img src="/home/img/banner.png" alt="banner">
+                    <img src="/Site de Vendas/home/img/banner.png" alt="banner">
                 </div>
                 <p>Tudo sobre o que pode haver de melhor em tecnologia, variedades, conversas e muito aprendizado.</p>
                 <p>De uma forma simples e dinâmica para todos os gostos!</p>
-                <a href="#" class="home-btn">Faça Parte!</a>
+                <a href="/Site de Vendas/home/cadastro/cadastro.html" class="btn-cadastro">Faça Parte!</a>
             </div>
     </main>
-    <script src="script.js"></script>
+    <script src="/Site de Vendas/home/script.js"></script>
 </body>
+<script>
+    var links = document.getElementsByTagName('a');
+    for (var i=0, len=links.length; i < len; i ++) {
+        links[i].target = '_blank';
+    }
+</script>
 </html>

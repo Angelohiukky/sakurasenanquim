@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/home/sobre/style-sobre.css">
+    <link rel="stylesheet" href="./style-sobre.css">
     <title>S&N - Loja</title>
 </head>
 <body>
     <header>
         <nav class="navegacao">
-            <img class="img-logo" src="/Home/img/logo s&n pronta.png" href=Home/index.html alt="Sakuras e Nanquim">
+            <img class="img-logo" src="/Site de Vendas/home/img/logo s&n pronta.png" href=Home/index.html alt="Sakuras e Nanquim">
             <a href="#" class="logo">Sakuras &  <span>Nanquim</span></a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="/home/index.html">Home</a></li>  
@@ -27,8 +27,17 @@
             </div>
         </nav>
     </header>
-    <script src="/home/sobre/script-sobre.js"></script>
+    <script src="./script-sobre.js"></script>
     <main>
         <section class="blog">
             <p>Texto falando sobre como iniciamos</p>
         </section>
+    </main>
+</body>
+<script>
+    var links = document.getElementsByTagName('a');
+    for (var i=0, len=links.length; i < len; i ++) {
+        links[i].target = '_blank';
+    }
+</script>
+</html>

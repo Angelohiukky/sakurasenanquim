@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/home/blog/style-blog.css">
+    <link rel="stylesheet" href="./style-blog.css">
     <title>S&N - Blog</title>
 </head>
 <body>
@@ -27,8 +27,17 @@
             </div>
         </nav>
     </header>
-    <script src="/home/blog/script-blog.js"></script>
+    <script src="./script-blog.js"></script>
     <main>
         <section class="blog">
             <p>Texto sobre nós</p>
         </section>
+    </main>
+</body>
+<script>
+    var links = document.getElementsByTagName('a');
+    for (var i=0, len=links.length; i < len; i ++) {
+        links[i].target = '_blank';
+    }
+</script>
+</html>

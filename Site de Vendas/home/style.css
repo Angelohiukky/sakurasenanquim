@@ -120,7 +120,7 @@
     margin-bottom: 4rem;
 }
 
-.home-btn{
+.btn-cadastro{
     padding: 15px 45px;
     background: var(--pink);
     color: var(--white);
@@ -129,7 +129,7 @@
     transition: all 0.5s;
 }
 
-.home-btn:hover{
+.btn-cadastro:hover{
     background: #5F04B4;
 }
 
